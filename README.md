@@ -22,9 +22,9 @@ castle artwork is drawn in SVG inside the page, so it needs no files.
   over on the Stena ferry (Belfast → Cairnryan 07:30) and up by car via Bathgate (Cafebar
   1912); SO & Emily in off the overnight via Heathrow and the train north. Then over the
   Forth to base camp — The 1881, Aberdour.
-- **Sat 12 – Tue 15** — the four middle days, now firmed: a flexible Glasgow/Edinburgh
-  weekend (the Sat/Sun order flexes around the Premier Sports Cup quarter-final), Loch Ness
-  on Monday, and a second Edinburgh day on Tuesday.
+- **Sat 12 – Tue 15** — the four middle days: a hockey weekend (two Belfast Giants away
+  games — Edinburgh + Dundee on the Saturday, Glasgow on the Sunday), Loch Ness on Monday,
+  and a second Edinburgh day on Tuesday.
 - **Wed 16** — away early; drop SO & Emily at Edinburgh Waverley, then the group splits
   for Crete: SO & Emily via London, Robert & Suzanne via Belfast (Stena 15:30), meeting
   back up out in Crete.
@@ -34,8 +34,8 @@ castle artwork is drawn in SVG inside the page, so it needs no files.
   Heraklion** with easyJet (EZY8217 out Thu 17 16:45; EZY8218 back Thu 24 23:40). Full
   door-to-door legs live on the **Travel** tab.
 
-The page has four tabs: **Itinerary** (the plan), **Travel** (every flight/crossing), **Stay**
-(accommodation), and **Build** (the running log). Booking references and payment details are
+The page has three tabs: **Itinerary** (the plan), **Travel** (every flight/crossing), and
+**Stay** (accommodation). Booking references and payment details are
 deliberately kept off this public page.
 
 Full timings, addresses and the Stena timetable are all in the page.
@@ -97,12 +97,10 @@ you can carry it forward:
   Cairnryan→Belfast on the 16th.
 - **Roles:** Robert & Suzanne do both ferry crossings with the car. SO & Emily arrive from
   Buffalo via London, leave on the 16th via London, and everyone reconvenes in Crete.
-- **What's still open / where help is wanted:**
-  - The **Sat 12 – Tue 15** days are unplanned — suggestions welcome (Edinburgh, Fife
-    coast, East Neuk, Stirling, etc.).
-  - **Onward Crete flights** aren't booked yet — SO & Emily route via London, Robert &
-    Suzanne via Belfast. Once the dates and airports are set, the Wed 16 tracks can be
-    firmed up.
+- **Still to book:** see the "Still to book" section on the page — Avis Crete car hire,
+  the Castle Cruises boat, Edinburgh Castle, the Islander workshop, a ghost/dark tour, and
+  (optionally) Britannia. Everything else — all flights, both ferries, the house and the
+  Crete hotel — is booked.
 - **To contribute:** edit `index.html` (the structure is plain, labelled sections) and
   push. Keep the departures-board style; times are in the mono font for a reason.
 

@@ -418,7 +418,6 @@
   <button data-view="itinerary" role="tab" aria-selected="true">Itinerary</button>
   <button data-view="travel" role="tab" aria-selected="false">Travel</button>
   <button data-view="stay" role="tab" aria-selected="false">Stay</button>
-  <button data-view="build" role="tab" aria-selected="false">Build</button>
 </nav>
 
 <div id="view-itinerary" class="view">
@@ -637,6 +636,28 @@
         </div>
       </div>
 
+      <div class="leg">
+        <div class="t">~17:00<small>shop</small></div>
+        <span class="dot"></span>
+        <div class="body">
+          <h3>Big shop · Aldi, Dalgety Bay</h3>
+          <p>7 Ridge Way, KY11 9HZ — about 7 minutes from the house. Stock the kitchen for the week — and brave the famous middle aisle.</p>
+          <figure class="photo" data-empty="▢ add img/aldi.jpg — the Aldi" style="aspect-ratio:16/7;margin-top:12px">
+            <img src="img/aldi.jpg" alt="Aldi, Dalgety Bay" loading="lazy" onerror="this.closest('.photo').classList.add('empty')">
+            <figcaption>The Riddle of "The Shit Aisle", revealed 👀</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="leg key">
+        <div class="t">~19:00<small>dinner</small></div>
+        <span class="dot"></span>
+        <div class="body">
+          <h3>Dinner · Anstruther Fish Bar</h3>
+          <p>42–44 Shore St, Anstruther KY10 3AQ — a proper East Neuk fish supper, ~45 min out along the coast. Then an early night.</p>
+        </div>
+      </div>
+
     </div>
 
     <p class="maybe-head"><svg class="ico" style="width:14px;height:14px;color:var(--tide);vertical-align:-.15em;margin-right:5px"><use href="#i-house"/></svg>Base camp · The 1881, Aberdour — five nights</p>
@@ -692,48 +713,37 @@
 <section class="reveal">
   <div class="wrap">
     <div class="s-head"><span class="s-num">03</span><h2>The days in between</h2></div>
-    <p class="s-sub">The four middle days, now firmed — a flexible city <b>weekend</b>, <b>Loch Ness</b> on Monday, and a <b>second Edinburgh day</b> on Tuesday.</p>
-    <p class="maybe-head">The weekend · Sat 12 &amp; Sun 13 — an interchangeable pair</p>
-    <p class="weekend-intro">One day Glasgow, one day Edinburgh — which lands on Saturday vs Sunday flexes around the football. <b>Glasgow is fixed</b>: it happens with or without a match.</p>
+    <p class="s-sub">The four middle days, now locked — a <b>hockey weekend</b> (two Belfast Giants away games), <b>Loch Ness</b> on Monday, and a <b>second Edinburgh day</b> on Tuesday.</p>
+    <p class="maybe-head">The weekend · Sat 12 &amp; Sun 13 — two hockey nights</p>
+    <p class="weekend-intro">Both nights are <b>Belfast Giants</b> away games (Challenge Cup): Edinburgh by day then <b>Dundee</b> on Saturday, <b>Glasgow</b> for the Clan's home opener on Sunday.</p>
     <div class="daygrid">
       <div class="dayplan">
-        <div class="dwhen"><span>Edinburgh</span><span class="v">one of Sat / Sun</span></div>
-        <h3>The Old Town classic</h3>
+        <div class="dwhen"><span>Saturday 12 · Edinburgh + Dundee</span><span class="v">hockey night</span></div>
+        <h3>Old Town by day, face-off by night</h3>
         <div class="daypix dp2">
           <figure class="photo"><img src="img/ed-castle.jpg" alt="Edinburgh Castle" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Edinburgh Castle</figcaption></figure>
           <figure class="photo"><img src="img/greyfriars.jpg" alt="Greyfriars Bobby statue" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Greyfriars Bobby</figcaption></figure>
-          <figure class="photo"><img src="img/vaults.jpg" alt="Edinburgh vaults ghost tour" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>The vaults · ghost tour</figcaption></figure>
-          <figure class="photo"><img src="img/mountebank.jpg" alt="Mountebank comedy walking tour guide" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Mountebank · comedy alt</figcaption></figure>
         </div>
         <ul>
-          <li><b>Edinburgh Castle</b> — pre-booked timed ticket, and the One O'Clock Gun</li>
-          <li>Down the <b>Royal Mile</b></li>
-          <li>A rub of <b>Greyfriars Bobby's</b> nose for luck</li>
-          <li>A long lunch</li>
-          <li>An evening <b>ghost tour</b> of the closes &amp; vaults — or the <b>Mountebank</b> comedy walk</li>
+          <li><b>Edinburgh Castle</b> — pre-book a timed ticket — the Royal Mile, and a rub of <b>Greyfriars Bobby's</b> nose</li>
+          <li><b>Primark</b>, Princes Street</li>
+          <li>Keep food light — a quick lunch in town or a bite back at the house</li>
+          <li>Leave Edinburgh <b>~17:15</b> for Dundee (~1h15)</li>
+          <li><b>19:00 face-off</b> — Dundee Stars v <b>Belfast Giants</b>, Dundee Ice Arena (Challenge Cup, away)</li>
+          <li>Pizza home from <b>Oke Grill</b>, Kirkcaldy (239 High St, KY1 1JF — till 1:30am; phone ahead)</li>
         </ul>
       </div>
       <div class="dayplan">
-        <div class="dwhen"><span>Glasgow</span><span class="v">the other day</span></div>
-        <h3>West End &amp; the city</h3>
+        <div class="dwhen"><span>Sunday 13 · Glasgow</span><span class="v">hockey night</span></div>
+        <h3>Glasgow &amp; the Clan's home opener</h3>
         <figure class="photo"><img src="img/glasgow.jpg" alt="Buchanan Street, Glasgow" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Buchanan Street</figcaption></figure>
         <ul>
-          <li><b>Kelvingrove</b> Art Gallery — free, and brilliant</li>
-          <li>The <b>Riverside Museum</b></li>
-          <li>The <b>West End</b> &amp; Ashton Lane</li>
-          <li><b>George Square</b> &amp; the city centre</li>
-          <li><b>Glasgow Cathedral</b> &amp; the Necropolis</li>
+          <li>A day in <b>Glasgow</b> — Braehead's ~1h15 from Aberdour</li>
+          <li><b>16:00 face-off</b> — Glasgow Clan v <b>Belfast Giants</b>, Braehead Arena (Challenge Cup, away — the Clan's home opener)</li>
+          <li>Dinner on the road home: <b>Rogue Bros The Boat House</b>, South Queensferry (22 High St, EH30 9PP — till 10pm Sun; closed Mon)</li>
         </ul>
-        <div class="dnote">If a match is on, it anchors the day.</div>
+        <div class="dnote">A 4pm face-off has you back at Queensferry ~7:15 — the Boat House fits comfortably.</div>
       </div>
-    </div>
-
-    <div class="maybe" style="margin-top:12px">
-      <div class="tag">Match day · the variable</div>
-      <h3>Premier Sports Cup quarter-final</h3>
-      <figure class="photo" style="aspect-ratio:16/7;margin:0 0 13px"><img src="img/ibrox.jpg" alt="Ibrox Stadium, Glasgow" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Ibrox · if it's a Glasgow tie</figcaption></figure>
-      <p>The quarter-final lands on <b>this exact weekend</b> (Sat 12 / Sun 13) — but the fixture isn't known until the last-16 is played (<b>15–16 Aug</b>) and the draw follows. If there's a tie worth travelling for, it drops onto the matching city's day: a Glasgow ground (<b>Rangers at Ibrox</b>) → the Glasgow day; <b>Hearts or Hibs</b> in Edinburgh → the Edinburgh day. We arrange the Sat/Sun order so the match day's city matches when the fixture is actually scheduled. If nothing appeals, the weekend's simply Glasgow + Edinburgh, no match.</p>
-      <p class="trigger">📅 calendar nudge ~17 Aug — check the draw, grab tickets same-day.</p>
     </div>
 
     <p class="maybe-head">Mon 14 · Loch Ness — the full-day expedition</p>
@@ -867,25 +877,24 @@
       </div>
     </div>
 
-    <p class="maybe-head">Tue 15 · Edinburgh, take two — fixed</p>
+    <p class="maybe-head">Tue 15 · Edinburgh, take two — all together</p>
     <div class="dayplan">
-      <div class="dwhen"><span>Tuesday 15 · Edinburgh</span><span class="v">anchored by the workshop</span></div>
-      <h3>Tweed, a royal yacht &amp; a hill</h3>
+      <div class="dwhen"><span>Tuesday 15 · Edinburgh</span><span class="v">all together</span></div>
+      <h3>Tweed, a royal yacht, a hill &amp; a dark tour</h3>
       <div class="daypix dp4">
         <figure class="photo wide"><img src="img/arthurs-seat.jpg" alt="View over Edinburgh from Arthur's Seat" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Arthur's Seat · the view over Edinburgh</figcaption></figure>
         <figure class="photo"><img src="img/islander.jpg" alt="Islander Harris Tweed handbag" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Islander tweed</figcaption></figure>
         <figure class="photo"><img src="img/britannia.jpg" alt="Royal Yacht Britannia at Leith" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Britannia</figcaption></figure>
-        <figure class="photo"><img src="img/mansfield.jpg" alt="Mansfield Traquair murals" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Mansfield Traquair</figcaption></figure>
         <figure class="photo"><img src="img/cafe-piccante.jpg" alt="Fish and chips from Cafe Piccante" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>Cafe Piccante</figcaption></figure>
+        <figure class="photo"><img src="img/vaults.jpg" alt="Edinburgh vaults dark tour" loading="lazy" onerror="this.closest('.photo').classList.add('empty')"><figcaption>The vaults · dark tour</figcaption></figure>
       </div>
       <ul>
-        <li><b>Islander Harris Tweed</b> handbag workshop on the Royal Mile — pick your cloth, make your own bag <i>(book once dated)</i></li>
+        <li><b>Islander Harris Tweed</b> handbag workshop, Royal Mile — the girls; ~1 hr (only runs Tue/Fri, hence today)</li>
         <li><b>Royal Yacht Britannia</b> at Leith</li>
-        <li><b>Mansfield Traquair</b> — the Phoebe Anna Traquair murals</li>
         <li>Climb <b>Arthur's Seat</b> for the view over the city</li>
-        <li><b>Cafe Piccante</b> — the best fish &amp; chips, handy by Mansfield Traquair</li>
+        <li>Dinner: <b>Cafe Piccante</b>, central Edinburgh — the best fish &amp; chips</li>
+        <li>Evening <b>ghost / dark tour</b> — Mercat Tours (Blair Street vaults) or City of the Dead (Greyfriars)</li>
       </ul>
-      <div class="dnote">⚠ <b>Mansfield Traquair</b> opens select days only — confirm the Sep 2026 dates before pinning; it may force the slot.</div>
     </div>
 
     <p class="editme">▸ edit this section in the repo — it's meant to grow</p>
@@ -1020,16 +1029,10 @@
 
       <p class="ck-group">Book ahead — once, soon</p>
       <label class="ck"><input type="checkbox" data-ck="castle-cruises"><span class="box"></span><span class="ck-body"><b>Castle Cruises, Loch Ness boat.</b> Mon 14, ~midday. Only 12 seats — book early and build the loch timings around the slot.</span></label>
-      <label class="ck"><input type="checkbox" data-ck="ed-castle"><span class="box"></span><span class="ck-body"><b>Edinburgh Castle.</b> Timed ticket, pre-book — it's busy. Falls on the Edinburgh weekend day.</span></label>
-      <label class="ck"><input type="checkbox" data-ck="islander"><span class="box"></span><span class="ck-body"><b>Islander Harris Tweed — handbag workshop.</b> Royal Mile, Tue 15. Book now the day's fixed.</span></label>
-      <label class="ck"><input type="checkbox" data-ck="ghost"><span class="box"></span><span class="ck-body"><b>Ghost tour.</b> An Edinburgh evening through the Old Town closes &amp; vaults — book the slot.</span></label>
+      <label class="ck"><input type="checkbox" data-ck="ed-castle"><span class="box"></span><span class="ck-body"><b>Edinburgh Castle.</b> Timed ticket, pre-book — it's busy. Falls on Saturday 12.</span></label>
+      <label class="ck"><input type="checkbox" data-ck="islander"><span class="box"></span><span class="ck-body"><b>Islander Harris Tweed — handbag workshop.</b> Royal Mile, Tue 15 — only runs Tue/Fri, so book now the day's fixed.</span></label>
+      <label class="ck"><input type="checkbox" data-ck="ghost"><span class="box"></span><span class="ck-body"><b>Ghost / dark tour.</b> Tuesday evening — Mercat Tours (Blair Street vaults) or City of the Dead (Greyfriars). Book the slot.</span></label>
       <label class="ck"><input type="checkbox" data-ck="britannia"><span class="box"></span><span class="ck-body"><b>Royal Yacht Britannia</b> <i>(optional)</i>. Leith, Tue 15 — pre-book skips the queue.</span></label>
-
-      <p class="ck-group">Check first, then book</p>
-      <label class="ck"><input type="checkbox" data-ck="mansfield"><span class="box"></span><span class="ck-body"><b>Mansfield Traquair.</b> Open select days only — confirm the September 2026 dates before pinning it to Tuesday; it may force its own slot.</span></label>
-
-      <p class="ck-group wait">Waiting on the draw</p>
-      <label class="ck"><input type="checkbox" data-ck="football"><span class="box"></span><span class="ck-body"><b>Premier Sports Cup QF tickets.</b> Can't book until the draw (~17 Aug, after the last-16 on 15–16 Aug). When it lands, book same-day — they go fast. Weekend 12 / 13 Sep.</span></label>
     </div>
 
     <p class="fineprint">Everything else — flights, ferry, house, Crete hotel — is booked. This is what's left.</p>
@@ -1277,199 +1280,11 @@
   </section>
 </div>
 
-<div id="view-build" class="view" hidden>
-  <section>
-    <div class="wrap">
-      <div class="build-head">
-        <p class="eyebrow">How this page got made</p>
-        <h2>The build</h2>
-        <p class="build-intro">Every exchange that shaped this itinerary — each request, what changed, and the commit it landed in. It grows as we keep going.</p>
-      </div>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">01</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/e5e3d5c">e5e3d5c</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Here's my repo — clone it (it's empty), copy <b>index.html</b> and <b>README.md</b> from my zip, commit them as "First draft of the Fife itinerary", push to main, then list the remote files.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>A few things didn't match the brief, so I checked before acting: the files were actually in a zip in the working folder (not where described), the repo wasn't empty (it already had a starter file), and the active GitHub login only had read access.</p><p>So I cloned the repo, copied the two verified files in, committed, used the account that <i>did</i> have write access to push, listed the remote (<b>index.html, README.md, opening.text</b>), and left your setup as I found it.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">02</span><span class="commit">chat</span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>I can log you in as the repo owner if needed — I'll switch accounts over.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>No need — the push had already gone through on the right account, which was already logged in. Nothing to re-auth.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">03</span><span class="commit">chat</span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>I've changed over the GitHub connector — you should be good now.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Set your account as the active one and confirmed it has full access, so pushes work straight from here now.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">04</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/65aa3ac">65aa3ac</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Add some possibilities: a <b>Premier Sports Cup quarter-final</b> that weekend (maybe Rangers or Hearts), Suzanne possibly climbing <b>Arthur's Seat</b>, and a <b>handbag-making</b> thing on the Royal Mile.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Added a "Still loose — possibilities" block to the days-in-between with three cards — framed as undecided, with no invented match, venue, or booking details.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">05</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/d1414f5">d1414f5</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Change the Friday food stop — not Ayr, we want Bathgate, <b>The 1812</b>. And the handbag place is <b>Islander Harris Tweed</b>.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Swapped the Ayr stop for The 1812 in Bathgate and moved its timing later to match (Bathgate is much nearer Edinburgh), named the handbag workshop, and updated the README to stay in sync.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">06</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/60ce224">60ce224</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Add the link for the <b>1881</b> at the end of the page. And we want a <b>Loch Ness monster boat tour</b> — how long to drive up, and some good options.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Found the real Airbnb listing (a same-named site that came up was a different place in the US), and added it to the Base camp card and the footer. Added Loch Ness as a possibility with the honest ~3-hour drive and three boat options.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">07</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/d7a5246">d7a5246</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Bring the page to life with <b>photos and iconography</b> — the ferry, the Bathgate restaurant, the 1881, and the Loch Ness day. Build up the Loch Ness copy and tour options too.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Checked how you wanted photos sourced ("whatever you recommend"), so: drew self-contained SVG icons and a custom Loch Ness illustration, added framed photo slots you fill with your own JPEGs from an <b>/img</b> folder, and expanded Loch Ness into a full feature with a three-way tour comparison.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">08</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/49fac5c">49fac5c</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Add an <b>Itinerary / Build</b> toggle at the top — the Build view should show every conversation here on one page.</p><p>Also: SO &amp; Emily aren't flying, they're heading to <b>York</b> — find them a train around 10am or slightly earlier and drop them at <b>Waverley</b>.</p><p>And add a bit of humour: will SO find out who <i>owns</i> the Loch Ness tour, like he tried with the Jack the Ripper tour?</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Built the toggle and this Build view — it logs each exchange and links to its commit. Reworked Wednesday: out of Aberdour a touch earlier, drop SO &amp; Emily at Waverley for a morning LNER to York (~2h25), then Robert &amp; Suzanne carry on to Cairnryan for the 15:30 sailing. And slipped a Nessie-ownership joke into the Loch Ness feature.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">09</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/370f6cd">370f6cd</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Quick correction — the Bathgate place is <b>Cafebar 1912</b>, not 1812. And here are real photos: Cafebar 1912, the 1881 (the kitchen, the view, and — uncannily — a tub of <b>SO SO</b> sea salt), Urquhart Castle for the Loch Ness day, and the Islander Harris Tweed bags.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Renamed it to Cafebar 1912 everywhere, added a third base-camp photo for the view and flagged the SO SO coincidence, and wired photo frames for the lot.</p><p>One catch: pasted images reach me as pictures, not files — so the frames stay as placeholders until the JPEGs are dropped into <b>/img</b> with the listed names.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">10</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/fdb0e2c">fdb0e2c</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Reframe the hero — it's me &amp; Suzanne from <b>Belfast</b>; the others come from <b>Buffalo via London</b>. Everyone meets at Aberdour, then on to <b>Crete</b>. Show both journeys (one Aberdour, one Crete).</p><p>Add an evening <b>ghost tour</b> (preferred) or a Mountebank comedy walk, <b>Edinburgh Castle</b>, and the <b>Royal Yacht Britannia</b>. And are my photos actually connected?</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Redrew the hero as two journeys converging on Aberdour and carrying on to Crete, with a little route-map and updated crew lines. Added Edinburgh Castle, a ghost-or-comedy evening tour (leaning ghostly), and the Royal Yacht Britannia at Leith.</p><p>Photos: sorted — you'd saved them in, I matched each to its slot, converted the AVIFs to JPEG and renamed them, so the frames are now live (no more placeholders). One thing still open: the Wednesday "back across" section still shows the old Belfast/York plan — that needs reworking for the Crete departure once we have the details.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">11</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/0457103">0457103</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>For the Crete leg, <b>separate routes</b> — me &amp; Suzanne via Belfast, SO &amp; Emily via London, both meeting in Crete.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Reworked Wednesday into a shared morning (run into Edinburgh, drop SO &amp; Emily at Waverley) and then <b>two diverging tracks to Crete</b> — SO &amp; Emily via London, Robert &amp; Suzanne via Belfast on the booked Stena crossing. The onward Crete flights are marked "to confirm" until the dates and airports are set.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">12</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/3e5a3c0">3e5a3c0</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Here are RR &amp; SR's <b>Jet2</b> flights and hotel to <b>Crete (Heraklion)</b> — <b>Castello Village Resort</b>, same hotel for both parties.</p><p>Also add <b>Britannia</b> (yes), <b>Mansfield Traquair</b>, a wee run of <b>Greyfriars Bobby's nose</b>, and the best fish &amp; chips, <b>Cafe Piccante</b>.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Added a <b>Crete</b> section — the shared Castello Village Resort (Heraklion, 3★, Jet2holidays) and Robert &amp; Suzanne's Belfast⇄Heraklion flights (out Thu 17 Sep), with SO &amp; Emily's London flights marked to confirm. Britannia was already in; added Mansfield Traquair, Greyfriars Bobby and Cafe Piccante to the ideas.</p><p>I couldn't read the exact flight times and numbers off the booking screenshot, so those are flagged "to confirm" — send them over and I'll drop them in.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">13</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/b427b53">b427b53</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Here are SO &amp; Emily's US⇄UK flights (American/BA) and their Crete flights (easyJet). Use it all to make the page flow better.</p><p>Bring in a third tab named <b>TRAVEL</b> — segment the travel into its own defined area, without removing it from the itinerary.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Added a <b>Travel</b> tab — a full door-to-door dossier of every leg for both parties: Robert &amp; Suzanne's ferry + Jet2, and SO &amp; Emily's Buffalo→Boston→Heathrow, Gatwick→Heraklion, and the way home. The itinerary keeps all its travel inline too.</p><p>Firmed up SO &amp; Emily's confirmed easyJet flights (EZY8217/8218) in the Crete section and Wednesday track. Booking references and payment details deliberately left off — this repo is public.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">14</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/9b731ef">9b731ef</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Two map fixes: (1) <b>Aberdour → Edinburgh</b> in the title and route map — the base camp's in Aberdour, but to everything else it's Edinburgh.</p><p>(2) We don't go Aberdour→Crete directly: SO &amp; Emily go <b>back to London</b> then Crete; RR &amp; SR go <b>back to Belfast</b> then Crete. Make it visually correct.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Renamed the hub to <b>Edinburgh</b> in the title, route map and crew lines (Base camp stays Aberdour). Redrew the map as a <b>converge-then-diverge</b>: both parties meet at Edinburgh, then split back out through their own hub — SO &amp; Emily via London, Robert &amp; Suzanne via Belfast — before reuniting in Crete.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">15</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/45df852">45df852</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>R&amp;S Jet2 flights confirmed (LS321/LS322). Add SO &amp; Emily's <b>Heathrow → Edinburgh</b> train, and the way back <b>Edinburgh → York → London Stansted</b>. Build a 4th <b>Accommodation</b> tab (the 1881, Castello Village Resort in Sissi, plus York &amp; London).</p><p>And on the map — why London &amp; Belfast twice? Show the return as a parallel line and a looping curve to Crete.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Locked in R&amp;S's LS321/LS322. Added the inbound Heathrow→Edinburgh train and the Edinburgh→York→London return across the Travel tab and Wednesday. Built the <b>Stay</b> tab — the 1881, Castello Village Resort in Sissi (4★, B&amp;B, 7 nights), and York/London as to-be-booked.</p><p>Redrew the map your way: each city once, a parallel "back" line to each hub, then a looping curve from London and Belfast on to Crete. Good call — it's cleaner.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">16</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/27e4e82">27e4e82</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Timing fix for SO &amp; Emily: leave Edinburgh early Wednesday, into York before midday, drop bags and a gentle sightsee, then down to London the next morning (no need to be crazy early). Rating ★★★★ is good. And here are the Castello photos.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Sorted the timing — York is now the single overnight (early Wed, in before midday, easy afternoon), London just a relaxed hop through to Gatwick on Thursday. Updated the Wednesday track, the Travel tab, and the Stay tab (dropped the spare London booking). Dropped your three <b>Castello</b> photos in — the Crete section now has a little gallery (pool, terrace, sea-view room) and the Stay card shows the pool.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">17</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/361751d">361751d</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Oh and we need a nice favicon lol</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Made a wee <b>brass ferry</b> on a harbour-navy tile — a self-contained SVG favicon that stays sharp right down to 16px. Wired it into the page with a matching theme-colour for mobile browser chrome.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">18</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/e712508">e712508</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Recast "the days in between" — the four middle days are firmed now. A flexible <b>Glasgow/Edinburgh weekend</b> (order flexes around the football), <b>Loch Ness Monday</b>, <b>Edinburgh #2 Tuesday</b>. Fold the possibilities into their days; drop the Fife coast and Stirling/Kelpies. No green-and-gold anywhere.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Recast the whole section into committed day plans: the interchangeable weekend pair (Edinburgh Old Town + Glasgow West End) with the football logic and a ~17 Aug ticket-draw nudge; Loch Ness committed to Monday; and a Tuesday Edinburgh day anchored by the tweed workshop (Britannia, Mansfield Traquair, Arthur's Seat, Cafe Piccante, with the select-days flag). Folded the old possibility cards into their days, dropped the coast and Stirling/Kelpies. Kept to the existing navy/brass/tide palette — no green-and-gold.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">19</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/23703c6">23703c6</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>[ photos for the day cards — Edinburgh Castle, Greyfriars Bobby, the vaults, the Mountebank guide, Glasgow, Ibrox, Arthur's Seat, Britannia, Mansfield Traquair, the chippy ]</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Brought the day plans to life with your photos: a 2×2 strip on the Edinburgh weekend card (Castle, Greyfriars, vaults, Mountebank), Buchanan Street on Glasgow, Ibrox on the match-day card, and a gallery on the Tuesday card led by the Arthur's Seat view (tweed, Britannia, Mansfield, the chippy). Converted the webp/avif ones to JPEG and kept everything in the same navy/brass/tide frames.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">20</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/49166c0">49166c0</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>The itinerary shouldn't kick off Friday — that's when Suzanne &amp; I come into it. SO &amp; Emily start on <b>Thursday</b>, so that should come first. It should read by time, like a timetable, right?</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Right — rebuilt the Itinerary as one chronological run. New opener <b>Thursday 10</b> (SO &amp; Emily fly Buffalo→Boston→London overnight); <b>Friday 11</b> now shows both parties converging at Waverley (their Heathrow landing + train woven in beside the ferry), with <b>base camp</b> folded in as the check-in; then the days, Wednesday's split, and <b>Thursday 17</b> as the flight into Crete. Folded the Stena timetable into Friday's ferry leg and dropped the separate Sailings section.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">21</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/3a1565e">3a1565e</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Booked the sailings — Stena Superfast VIII out (Fri 11, 07:30), Superfast VII back (Wed 16, 15:30), car + two adults, Stena Plus. [ booking ref &amp; reg supplied ]</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Marked the ferries as <b>booked</b> across Friday, Wednesday and the Travel tab — ship names in (Superfast VIII / VII), the Stena Plus lounge noted, and the real car check-in window (closes 45 min before, so ~06:15 at Belfast). Kept the booking reference and the car reg off the page — public repo.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">22</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/2996ab3">2996ab3</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Those hero cards feel redundant now — drop them, or bring in some highlight "card" dates and times?</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Repurposed rather than dropped — they were a good anchor but only framed Friday. Now they're the trip's three pivots at a glance: <b>Trip begins</b> (Thu 10, SO &amp; Emily out), <b>Everyone meets</b> (15:30 Waverley, Fri 11), and <b>Onward to Crete</b> (Thu 17). Earns its place across the whole timeline instead of repeating one day.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">23</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/0e98920">0e98920</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Build the Monday 14 — Loch Ness day card: it commits to Monday now, both food stops locked. Recast it into a fixed-day card with a timing run (Friday-style vertical timeline). And maybe drop that stale footer at the bottom?</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Recast the Loch Ness feature into a committed day with a full timing run — 07:30 away, breakfast at the Garden Cafe in Pitlochry, the loch &amp; Castle Cruises boat at noon (~4 hrs), then dinner at Z's Bistro in Dunkeld, home ~20:40 — same vertical-timeline style as Friday. Dropped the old "weigh up three boats" comparison and the "if we commit" line; surfaced the two booking flags (boat ahead = the fixed point; both food stops open Monday).</p><p>Trimmed the footer too: cut the redundant house link and the now-wrong "reconfirm on Stena" line (it's booked), kept a tidy one-line signature.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">24</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/6e01e4e">6e01e4e</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>[ photos for the Loch Ness food stops — the Garden Cafe in Pitlochry and Z's Bistro in Dunkeld ]. And don't forget to update the Build page.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Dropped both food-stop photos straight into the Loch Ness timing run — the Garden Cafe on the breakfast leg, Z's Bistro on the dinner leg. Converted the webp and kept them in the same frames. (And yes — logging it here, as ever. 😄)</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">25</span><span class="commit"><a href="https://github.com/robertkashyyyk/soekrrsr-edinburgh/commit/544f2a5">544f2a5</a></span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Fill in R&amp;S's Jet2 Crete flights (already done — LS321/LS322). And add a <b>"Still to book"</b> section: a standstill checklist grouped by urgency, footer line "everything else is booked, this is what's left".</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>R&amp;S flights were already in from before, so I just added the symmetry note on the Travel tab — both parties leave Heraklion the same night (LS322 22:55 / EZY8218 23:40). Built the <b>Still to book</b> section: a tickable checklist (saved per-browser) grouped Book&nbsp;now → Book&nbsp;ahead → Check&nbsp;first → Waiting on the draw. Dropped the Stena ferry from it — it's already booked, so listing it would've been wrong (your footer line agrees).</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>I'm SO — just got added as a collaborator. Setting up Claude Code to contribute: working out branching so we don't clobber each other's edits.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Set up: feature branches off <b>main</b> (e.g. <code>so/crete-flights-update</code>), pushed for review, Vercel previews each branch automatically. This entry is the first edit pushed that way.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">27</span><span class="commit">latest</span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Pulled SO &amp; Emily's actual booking confirmations from email (AA/easyJet/LNER/National Express/Hilton) and asked for the itinerary to be brought in line — no rates or costs.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Corrected SO &amp; Emily's leg times throughout (Buffalo→Boston now 17:00/18:36; easyJet to Crete now 16:55/22:50; the return PHL→BUF leg is now AA5354, 22:20/23:56). Replaced the placeholder London→Edinburgh and Edinburgh→York→Gatwick legs with the confirmed LNER trains (Kings Cross 11:03→Waverley 15:34; Edinburgh 10:30→York 12:52; York 10:31→Gatwick 13:44 via Stevenage). Added the National Express Gatwick→Heathrow coach (09:10→10:20) ahead of the flight home. Confirmed the York hotel (Hampton by Hilton York) and added a new Gatwick airport-hotel night (Hampton by Hilton London Gatwick) for the overnight before the coach.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">28</span><span class="commit">latest</span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>Hero route map only showed the outbound leg to Crete, not the flight home. Friday 11's "everyone converges" wording was vague now that we have real times — and it muddled the Bathgate meal as if SO &amp; Emily shared it, when they're actually eating on the train.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Added dashed "home ✈" return arrows from Crete back to Buffalo and Belfast on the hero map. Updated the Friday 11 meet time to the confirmed 15:34 everywhere it appears (subhead, timeline, hero tile, Travel tab note), and noted Robert &amp; Suzanne park up by ~14:00. Labelled the Bathgate stop as Robert &amp; Suzanne's only, and added a note that SO &amp; Emily eat on the train instead.</p></div></div>
-      </article>
-
-      <article class="turn">
-        <div class="turn-head"><span class="step">29</span><span class="commit">latest</span></div>
-        <div class="msg you"><div class="who">You</div><div class="bubble"><p>The map's "home" arrow went straight from Crete to Buffalo — but SO &amp; Emily actually fly Crete → London first, then separately London → Buffalo.</p></div></div>
-        <div class="msg claude"><div class="who">Claude</div><div class="bubble"><p>Added the missing London → Buffalo leg to the dashed home-arrow path, so SO &amp; Emily's return now reads Crete → London → Buffalo (matching Robert &amp; Suzanne's direct Crete → Belfast). Updated the map's alt text to describe both return routes accurately.</p></div></div>
-      </article>
-
-      <p class="editme" style="margin-top:24px">▸ this log grows by hand each time we change something — newest at the bottom</p>
-    </div>
-  </section>
-</div>
-
 <script>
   const views = {
     itinerary: document.getElementById('view-itinerary'),
     travel: document.getElementById('view-travel'),
-    stay: document.getElementById('view-stay'),
-    build: document.getElementById('view-build')
+    stay: document.getElementById('view-stay')
   };
   const tabs = document.querySelectorAll('.switch button');
 

@@ -26,6 +26,7 @@ Until a file exists, the page shows a tidy dashed placeholder in its slot — no
 | `cafe-piccante.jpg`  | Tue 15 · Edinburgh           | Fish & chips                              |
 | `garden-cafe.jpg`    | Mon 14 · Loch Ness           | Garden Cafe, Pitlochry (breakfast)        |
 | `zs-bistro.jpg`      | Mon 14 · Loch Ness           | Z's Bistro, Dunkeld (dinner)              |
+| `aldi.jpg`           | Fri 11 · the big shop        | Aldi, Dalgety Bay (the middle aisle)      |
 
 Tips:
 - Landscape orientation works best (portrait shots get cropped to fit the frame).
